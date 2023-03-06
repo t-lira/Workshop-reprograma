@@ -1,2 +1,2 @@
 # Workshop-reprograma
- Projeto reslizado atraves do Workshop, utilizando HTML e CSS
+ Projeto realizado atraves do Workshop, utilizando HTML e CSS
