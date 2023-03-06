@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: var(--cor5);
+}
+
+:root{
+    --cor1:#ffffff;
+    --cor2:#262626;
+    --cor3:#86c9da; 
+    --cor4:#BF268D;
+    --cor5:#E0E5DF;
+    --font: 'Pacifico', cursive;
+    
+}
+
+
+/*BUTTONS*/
+
+.btn{
+
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 250px;
+    cursor: pointer;
+    box-shadow: 5px 5px 24px rgba(14, 14, 14, 0.315);  
+    background-color: var(--cor3); 
+}
+
+.btn span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn:hover span {
+    padding-right: 25px;
+} 
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;  
+}
+
+/*SECTION HOME PAGE*/
+
+section#banner{
+    background:var(--cor1) url(/Workshop-reprograma/IMG/img-banner.jpg)no-repeat top center; 
+    background-size:cover;
+     
+    text-align: center;
+    height: 100vh;
+    padding: 0 8%; 
+    line-height: 1.2cm;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-home{
+    margin-top: 10%;    
+}
+.text-home h1 {
+    color: var(--cor4);
+    font-size: 1.6em;  
+}
+
+.text-home h2 {
+    color: var(--cor2);
+    font-size: 2.5em;
+}
+
+.text-home p {
+    color: var(--cor2);
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+/*SECTION ABOUT-ME*/
+
+#aboutMe{
+    padding: 0 8%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    align-content: center; 
+}
+
+.text-aboutMe p {
+    width: 60%;
+    text-align: justify;
+    line-height: 1.7em;
+    text-indent: 2em;
+    margin-bottom: 25px;
+}
+
+.text-aboutMe h2{
+    margin-bottom: 20px;
+    color: var(--cor4);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 2em;   
+}
+
+.list-aboutMe{
+    width:100%;
+}
+
+.list-aboutMe h3{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: var(--cor4);
+}
+
+.list-aboutMe ul{
+    line-height: 1.7em;
+}
+
+/*ASIDE*/
+
+aside{
+    padding: 3% 10%;
+    text-align: center;
+}
+
+aside h4{
+    font-size: 1.1em;
+    padding: 10px 2px;
+}
+
+.access{
+    display: flex;
+    justify-content: center;      
+}
+
+.icon-aside{
+    background-color: var(--cor4);
+    box-shadow:  0px 3px 8px rgba(0, 0, 0, 0.356);
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.icon-aside:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.icon-aside p {
+    margin-top: 10px;  
+    color: var(--cor1) ;
+    font-weight: bold;   
+}
+
+/*Footer*/
+
+footer{
+    background-color: var(--cor2);
+    padding: 8px;
+    text-align: center;
+}
+footer img{
+    width: 15px;
+}
+
+footer p{
+    color: var(--cor1);
+}
+
+
+
+

@@ -1,0 +1,217 @@
+/*TABLET*/
+
+@media screen and (max-width:1030px) {
+    /*HOME PAGE*/
+
+    section#banner {
+        height: 80vh;
+    }
+
+    /*ABOUT ME*/
+
+    #aboutMe {
+        height: 75vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .text-aboutMe p {
+        width: 100%;
+    }
+
+    .text-aboutMe h2 {
+        text-align: center;
+    }
+
+    .list-aboutMe {
+        width: 100%;
+    }
+
+    .list-aboutMe h3 {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        color: var(--cor4);
+    }
+
+    .list-aboutMe ul {
+        line-height: 1.7em;
+    }
+    /*BUTTON*/
+
+    .btn {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width:830px) {
+    /*ASIDE*/
+
+    aside {
+        height: 30vh;
+    }
+
+    aside h4 {
+        padding: 30px 0;
+    }
+
+    .icon-aside img {
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width:740px) {
+    /*ASIDE*/
+    aside {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width:590px) {
+
+    /*ASIDE*/
+    aside {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .icon-aside img {
+        width: 30px;
+
+    }
+
+    .icon-aside {
+        padding: 10px 15px;
+        margin-left: 10px;
+    }
+
+    aside h4{
+        font-size: 1em;
+        padding: 5px 2px;
+    }
+        
+    .icon-aside p {
+        margin-top: 5px;
+        font-size: 0.9em;
+    }
+
+}
+@media screen and (max-width:430px) {
+ /*ABOUT*/
+
+ .text-aboutMe h2{
+    font-weight: lighter;
+    font-size: 1.3em;   
+}
+
+/*ASIDE*/
+
+aside {
+    height: 40vh;
+}
+
+.icon-aside img {
+    width: 25px;
+}
+
+.icon-aside {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+aside h4{
+    font-size: 1em;
+}
+    
+.icon-aside p {
+    margin-top: 3px;
+    font-size: 0.9em;
+}
+
+}
+
+@media screen and (max-width:385px) {
+    /*HOME PAGE*/
+
+    section#banner{
+        background:var(--cor1) url(/Workshop-reprograma/IMG/img-banner.jpg)no-repeat bottom;
+        height: 50vh;
+    }
+
+    .text-home{
+        margin-top: 5%;    
+    }
+
+    .text-home h1{
+        font-size: 1.2em;
+    }
+    
+    .text-home h2 {
+        color: var(--cor2);
+        font-size: 2em;
+    }
+    
+    .text-home p{
+        font-size: 1.3em;
+    }
+
+    /*ABOUT*/
+
+    .text-aboutMe h2{
+        font-weight: lighter;
+        font-size: 1.4em;   
+    }
+
+    /*ASIDE*/
+
+    aside {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .icon-aside img {
+        width: 25px;
+
+    }
+
+    .icon-aside {
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    aside h4{
+        font-size: 1em;
+    }
+        
+    .icon-aside p {
+        margin-top: 3px;
+        font-size: 0.9em;
+    }
+
+    /*BOTTON*/
+
+    .btn{
+        padding: 10px;
+    }
+
+    /*ABOUT ME*/
+
+    #aboutMe{  
+        height: 70vh;
+    }
+
+}
